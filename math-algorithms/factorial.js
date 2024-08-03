@@ -1,3 +1,5 @@
+// factorial
+
 function factorial(n) {
     let fact = 1;
     for (let i = 2; i <= n; i++) {
@@ -8,3 +10,5 @@ function factorial(n) {
 
 console.log(factorial(5));
 console.log(factorial(1));
+
+// Big-O : O(n)
